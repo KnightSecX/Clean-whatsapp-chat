@@ -52,13 +52,15 @@ pip install rich
 
 📌 Clone the Script from GitHub
 
-cd $HOME 
+cd $HOME
 git clone https://github.com/KnightSecX/Clean-whatsapp-chat.git
-cd clean-whatsapp-chat
+cd Clean-whatsapp-chat
 chmod +x clean_whatsapp_chat.py
 
 📌 Run the Script
+
 python clean_whatsapp_chat.py What.txt
+
 
 ✅ The cleaned chat will be saved in:
 /storage/emulated/0/Movies/Cleaned_What.txt
