@@ -1,11 +1,11 @@
 # Clean-whatsapp-chat
-Because it purifies Exported chats like holy water! 💦 Slaying all unnecessary demons! 👻
+Because it purifies Exported chats like holy water! 💦 Slaying all unnecessary demons!👻
 
-🚀 Clean WhatsApp Chat – Remove Clutter Like a Pro!
+## 🚀 **Clean WhatsApp Chat – Remove Clutter Like a Pro!**
 
 A Python script to clean WhatsApp exported chats by removing timestamps, sender names, numbers, media files, and unwanted clutter, leaving only the actual text messages.
 
-✨ Features
+# ✨ Features
 
 ✅ Removes timestamps, sender names & phone numbers
 
@@ -17,7 +17,7 @@ A Python script to clean WhatsApp exported chats by removing timestamps, sender 
 
 ✅ Keeps only the actual text messages, with proper formatting
 
-📥 Step 1: Export a WhatsApp Chat
+## 📥 Step 1: Export a WhatsApp Chat
 Follow these steps to export a WhatsApp chat as a .txt file:
 
 1️⃣ Open WhatsApp and go to the chat you want to clean.
@@ -30,9 +30,9 @@ Follow these steps to export a WhatsApp chat as a .txt file:
 
 5️⃣ Select Save to Files / Internal Storage / Google Drive (wherever you prefer).
 
-💡 Tip: If you choose "WITH media," the script will still remove media references.
+_💡 Tip: If you choose "WITH media," the script will still remove media references._
 
-📂 Step 2: Move & Rename the Chat File
+## 📂 Step 2: Move & Rename the Chat File
 
 1️⃣ Locate the exported chat file (usually named like WhatsApp Chat with XYZ.zip).
 
@@ -41,45 +41,51 @@ Follow these steps to export a WhatsApp chat as a .txt file:
 3️⃣ Move it to: /storage/emulated/0/Movies/
 You can use a file manager or Termux:
 
-⚡ Step 3: Install & Run the Script in Termux
-📌 Install Termux (If Not Installed)
-Download Termux from F-Droid (Recommended) or Play Store.
+## ⚡ Step 3: Install & Run the Script in Termux
 
-📌 Install Git & Python
+📌 Install Termux (If Not Installed)
+
+Download Termux from [F-Droid](https://f-droid.org/en/packages/com.termux/)(Recommended) or [Play Store](https://play.google.com/store/apps/details?id=com.termux).
+
+
+### Install Git & Python
+
+
+```
 pkg update && pkg upgrade -y
 pkg install python git -y
 pip install rich
+```
 
-📌 Clone the Script from GitHub
+### Clone the Script from GitHub
 
+```
 cd $HOME
 git clone https://github.com/KnightSecX/Clean-whatsapp-chat.git
 cd Clean-whatsapp-chat
 chmod +x clean_whatsapp_chat.py
+```
 
-📌 Run the Script
+### Run the Script
 
+```
 python clean_whatsapp_chat.py What.txt
+```
 
+### Add an Alias for Quick Use
 
-✅ The cleaned chat will be saved in:
-/storage/emulated/0/Movies/Cleaned_What.txt
-
-🎉 It will automatically open after cleaning!
-
-🔥 Add an Alias for Quick Use
-
-Want to run the script faster? Add an alias!
-
+```
 echo 'alias cleanwhatsapp="python $HOME/Clean-whatsapp-chat/clean_whatsapp_chat.py"' >> ~/.bashrc
 source ~/.bashrc
+```
 
-Now you can clean WhatsApp chats with just:
+### Now you can clean WhatsApp chats with just:
 
+```
 cleanwhatsapp What.txt
+```
 
-
-📢 Want to Contribute?
+## 📢 Want to Contribute?
 
 ⭐ Star this repo if you find it useful!
 
@@ -87,7 +93,7 @@ cleanwhatsapp What.txt
 
 📢 Report bugs or suggest features in Issues.
 
-🛡 FAQ
+### 🛡 FAQ
 
 ❓ What if I exported the chat WITH media?
 
@@ -99,7 +105,8 @@ cleanwhatsapp What.txt
 
 ❓ What if I get an error while running the script?
 
-✅ Make sure:
+### ✅ Make sure:
+
 You have Python 3 installed (python --version).
 
 The chat file is named What.txt and placed in /Movies/.
@@ -107,17 +114,16 @@ The chat file is named What.txt and placed in /Movies/.
 You typed the filename correctly in Termux.
 
 ---
-📌 Credits
+## 📌 Credits
 
 🛠 Developed by (@KnightSecX)
 
-📜 Regex-powered chat cleaning with Python & Termux!
+### 📜 Regex-powered chat cleaning with Python & Termux!
 ---
+###🚀 Ready to Clean Your Chats?
 
-🚀 Ready to Clean Your Chats?
+**🔥 Clone & Run Now!**
 
-🔥 Clone & Run Now!
+git clone [Script](https://github.com/KnightSecX/Clean-whatsapp-chat.git)
 
-git clone https://github.com/your-username/clean-whatsapp-chat.git
-
-🚀 No more clutter, just clean messages! 🎯
+###🚀 No more clutter, just clean messages! 🎯
