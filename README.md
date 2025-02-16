@@ -1,5 +1,5 @@
 # Clean-whatsapp-chat
-Because it purifies chat like holy water! 💦 Slaying all unnecessary demons! 👻
+Because it purifies Exported chats like holy water! 💦 Slaying all unnecessary demons! 👻
 
 🚀 Clean WhatsApp Chat – Remove Clutter Like a Pro!
 
@@ -67,6 +67,17 @@ python clean_whatsapp_chat.py What.txt
 
 🎉 It will automatically open after cleaning!
 
+🔥 Add an Alias for Quick Use
+
+Want to run the script faster? Add an alias!
+
+echo 'alias cleanwhatsapp="python $HOME/Clean-whatsapp-chat/clean_whatsapp_chat.py"' >> ~/.bashrc
+source ~/.bashrc
+
+Now you can clean WhatsApp chats with just:
+
+cleanwhatsapp What.txt
+
 
 📢 Want to Contribute?
 
@@ -98,7 +109,7 @@ You typed the filename correctly in Termux.
 ---
 📌 Credits
 
-🛠 Developed by Your Name (@KnightSecX)
+🛠 Developed by (@KnightSecX)
 
 📜 Regex-powered chat cleaning with Python & Termux!
 ---
