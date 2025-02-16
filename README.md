@@ -1,5 +1,5 @@
 # Clean-whatsapp-chat
-Because it purifies Exported chats like holy water! 💦 Slaying all unnecessary demons!👻
+Because it purifies Exported chats like holy water!🫧💦 Slaying all unnecessary demons!👻
 
 ## 🚀 **Clean WhatsApp Chat – Remove Clutter Like a Pro!**
 
@@ -45,7 +45,7 @@ You can use a file manager or Termux:
 
 📌 Install Termux (If Not Installed)
 
-Download Termux from [F-Droid](https://f-droid.org/en/packages/com.termux/)(Recommended) or [Play Store](https://play.google.com/store/apps/details?id=com.termux).
+Download Termux from [F-Droid](https://f-droid.org/en/packages/com.termux/)  (Recommended) or [Play Store](https://play.google.com/store/apps/details?id=com.termux).
 
 
 ### Install Git & Python
@@ -97,24 +97,28 @@ cleanwhatsapp What.txt
 
 ❓ What if I exported the chat WITH media?
 
-✅ No worries! The script will remove media filenames and messages automatically.
+_✅ No worries! The script will remove media filenames and messages automatically._
 
 ❓ Can I use this for WhatsApp Business?
 
-✅ Yes! The format is the same, so it works perfectly.
+_✅ Yes! The format is the same, so it works perfectly._
 
 ❓ What if I get an error while running the script?
 
-### ✅ Make sure:
+### ✅ Make sure: 👇 
 
-You have Python 3 installed (python --version).
+You have Python 3 installed 
+```
+(python --version)
+```
 
 The chat file is named What.txt and placed in /Movies/.
 
 You typed the filename correctly in Termux.
 
 ---
-## 📌 Credits
+
+## 📌 **Credits**
 
 🛠 Developed by (@KnightSecX)
 
@@ -124,6 +128,6 @@ You typed the filename correctly in Termux.
 
 **🔥 Clone & Run Now!**
 
-git clone [Script](https://github.com/KnightSecX/Clean-whatsapp-chat.git)
+Git clone [Script](https://github.com/KnightSecX/Clean-whatsapp-chat.git)
 
 ###🚀 No more clutter, just clean messages! 🎯
